@@ -22,3 +22,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/charmed-kubernetes/charm-lib-interface-kube-dns"
 "Bug Tracker" = "https://github.com/charmed-kubernetes/charm-lib-interface-kube-dns/issues"
+
+[tool.bandit]
+exclude_dirs = [".tox", ".venv", "venv"]
